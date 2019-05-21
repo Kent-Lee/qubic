@@ -1,0 +1,102 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body, input{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	height: 100%;
+	width: 100%;
+	display: block;
+	background-color: #2A2C31;
+}
+
+.center{
+	align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#form h1{
+	margin: 0;
+}
+
+#form{
+	background-color: #FFFFFF;
+	padding: 50px;
+}
+
+#error_msg{
+	text-align: center;
+	color: #FF0000;
+}
+
+#button{
+	display: flex;
+	width: 100%;
+}
+
+.btn_large{
+	width: 190px;
+}
+
+button{
+	display: inline-block;
+	padding: 10px 15px;
+	font-size: 14px;
+	color: #FFFFFF;
+	border: 0px;
+	background: #4A4D56;
+	width: 80px;
+	margin: 2em 1em 0 1em;
+	outline: none;
+	cursor: pointer;
+}
+
+input{
+	border-radius: 0;
+	display: block;
+	padding: 10px 15px 10px 0;
+	font-size: 16px;
+	color: #222222;
+	border: none;
+	border-bottom: 1px solid #2A2C31 !important;
+	outline: none;
+	width: 100%;
+	margin: 10 auto 10 auto;
+}
+
+#wrapper{
+	background-color: #FFFFFF;
+	padding: 50px;
+}
+
+#wrapper h1{
+	margin: 0 0 1em 0;
+}
+
+#status_board{
+	font-family: Roboto, Helvetica, sans-serif;
+	border-collapse: collapse;
+	margin-bottom: 1em;
+}
+
+#status_board th{
+	padding: 10px;
+	width: calc(100%/8);
+	font-weight: normal;
+	background-color: #AFB0B5;
+}
+
+#status_board td{
+	padding: 20px;
+	text-align: center; 
+	vertical-align: middle; 
+}
